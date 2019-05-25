@@ -96,7 +96,8 @@
         }
         
         "[cityName] has been founded!":{
-            Italian:"[cityName] è stata fondata!"
+
+		Italian:"[cityName] è stata fondata!"
             Russian:"[cityName] был основан!" 
             French:"[cityName] a été fondée!"
             Romanian:"[cityName] a fost fondat!"
@@ -136,6 +137,7 @@
 		
 	"[wonder] has been built in a faraway land":{	
             Italian:"La Meraviglia [wonder] è stata costruita in una terra lontana"
+	    Portuguese:"[wonder] foi construido em uma terra distante"
 	}
         
         "Work has started on [construction]":{
@@ -233,6 +235,7 @@
 
 	"Enemy city [cityName] has attacked our [ourUnit]":{
             Italian:"La città nemica [cityName] ha attaccato [ourUnit]"
+	    Portuguese:"[cityName] atacou nosso [ourUnit]"
 	}
 		
         "An enemy [unit] has captured [cityname]":{
@@ -276,6 +279,7 @@
 		
 	"Enemy city [cityName] has destroyed our [ourUnit]":{
             Italian:"La città nemica [cityName] ha distrutto [ourUnit]"
+	    Portuguese:"[cityName] destruiu nossa unidade"
 	}
         
         "An enemy [unit] was destroyed while attacking [cityname]":{
@@ -334,12 +338,14 @@
             Italian:"Abbiamo avvistato [amount] unità nemiche vicino ai nostri confini!"
             German:"[amount] feindliche Einheiten wurden nahe unserer Grenzen entdeckt"
             Simplified_Chinese:"在我们的领土附近发现了[amount]个敌方单位"
+	    Portuguese:"[amount] unidades inimigas foram avistadas perto de nosso território"
         }
 
         "[amount] enemy units were spotted in our territory": {
             Italian:"Abbiamo avvistato [amount] unità nemiche nel nostro territorio!"
             German:"[amount] feindliche Einheiten wurden in unseren Grenzen entdeckt"
             Simplified_Chinese:"在我们的领土内发现了[amount]个敌方单位"
+	    Portuguese:"[amount] inimigas foram avistadas dentro de nosso território"
         }
 
         "The civilization of [civName] has been destroyed!":{
@@ -380,7 +386,7 @@
             Spanish:"¡Hemos descubierto la tecnología perdida de [techName] en las ruinas!"
             Simplified_Chinese:"我们在废墟中发现了失传已久的技术：[techName]！"
             Portuguese:"Nós descobrimos a tecnologia perdida de [techName] nas ruínas!"
-        }
+	}
         
         "A [unitName] has joined us!":{
             Italian:"L'unità [unitName] si è unita a noi!"
@@ -423,11 +429,13 @@
 
         "[unit] finished exploring.": {
             Italian:"[unit] ha terminato la sua esplorazione."
-            "German": "[unit] hat die Erkundung abgeschlossen."
-        },
+            German: "[unit] hat die Erkundung abgeschlossen."
+	    Portuguese:"[unit] acabou sua exploração."
+        }
 
         "[unit] has no work to do.": {
             Italian:"L'unità [unit] è ora inattiva."
-            "German": "[unit] hat keine Arbeit mehr."
-        }
+            German: "[unit] hat keine Arbeit mehr."
+	    Portuguese:"[unit] está sem ordens."
+	}
 }
